@@ -1,0 +1,61 @@
+
+body {
+  background-color: #EAEFD3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.player-box {
+
+  width: 40vw;
+  height: 80vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cpu-box {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40vw;
+  height: 80vh;
+}
+
+.score-box{
+  width: 10vw;
+}
+
+.play-area {
+  width: 90vw;
+}
+
+.btn {
+  font-family: 'Pontano Sans', sans-serif;
+  transition: all .3s ease-in-out;
+}
+
+.weapon-btn {
+  background-color: rgba(255,255,255,.5);
+}
+
+.weapon-btn:hover {
+  background-color: rgba(255,255,255,1);
+  transform: scale(1.2);
+}
+
+.scorebox-btn {
+  background-color: rgba(0,0,0,.3);
+}
+
+.scorebox-btn:hover {
+  color: white;
+  background-color: rgba(0,0,0,.5);
+  transform: scale(1.2);
+}
+
+.score {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 2em;
+}
+
+#win-msg {
+  font-family: 'Pontano Sans', sans-serif;
+}

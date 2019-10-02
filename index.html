@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+
+<!-- main css -->
+    <link rel="stylesheet" href="css\main.css">
+
+<!-- font awesome js -->
+<script src="js\all.js" charset="utf-8"></script>
+
+<!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pontano+Sans&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+<!-- play area -->
+
+<h1 class='text-center'><em><b>Rock, Paper, Scissors</b></em></h1>
+<div class="container-fluid play-area my-5">
+  <div class="row text-center">
+
+<!-- player box -->
+    <div class="col-4-lg player-box my-auto">
+      <h1 id="player"><b>Player</b></h1>
+      <h3 id="player-chosen">Scissors</h3>
+
+      <div class="buttons">
+        <button type="button" class="rock-btn weapon-btn btn" name="Rock">Rock</button>
+        <button type="button" class="paper-btn weapon-btn btn" name="Paper">Paper</button>
+        <button type="button" class='scissors-btn weapon-btn btn' name="Scissors">Scissors</button>
+
+      </div>
+    </div>
+
+
+
+
+<!-- score box -->
+    <div class="col-4-lg score-box mx-auto">
+      <div class="middle-text">
+        <h1 id='win-msg'><b></b></h1>
+        <h4><b>Player Score</b></h4>
+        <p class="playerScore score">0</p>
+        <h4><b>Computer Score</b></h4>
+        <p class="cpuScore score">0</p>
+      </div>
+
+      <div>
+        <button type="button" class="scorebox-btn btn" onclick="playRound()" name="button">Shoot</button>
+        <button type="button" class="scorebox-btn btn" onclick="document.location.reload()" name="button">Reset</button>
+      </div>
+    </div>
+
+
+<!-- cpu box -->
+    <div class="col-4-lg cpu-box">
+      <h1 id="cpu"><b>Computer</b></h1>
+      <h3 id="cpu-chosen">Rock</h3>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- jquery -->
+  <script src="js\jquery-3.4.1.min.js" charset="utf-8"></script>
+
+  <!-- bootstrap -->
+  <script src="js\bootstrap.bundle.min.js" charset="utf-8"></script>
+
+  <!-- js -->
+  <script src="js\index.js" charset="utf-8"></script>
+
+  </body>
+</html>
